@@ -1,1 +1,1 @@
-web: gunicorn app_web_backend.entrypoint:application
+web: gunicorn app_web_backend.wsgi
